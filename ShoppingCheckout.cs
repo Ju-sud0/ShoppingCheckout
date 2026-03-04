@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-// ShoppingCartItem class
+// ShoppingCheckout class
 public class ShoppingCheckout
 {
     public Product Product { get; set; }
@@ -137,4 +137,5 @@ public class ShoppingCart
         Console.WriteLine("\nThank you for shopping with us!");
         items.Clear();
     }
+
 }
